@@ -1,5 +1,4 @@
-﻿<%-- ASP.NET Page Directive --%>
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="AutoConcilia.Dashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="AutoConcilia.Dashboard" %>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -74,12 +73,12 @@
       margin-bottom: 15px;
     }
     .module button {
-    display: block;
-    margin-top: 10px;
-     }
+      display: block;
+      margin-top: 10px;
+    }
     .logout-button {
       background-color: #d32f2f;
-      border: none;S
+      border: none;
       padding: 10px 20px;
       color: white;
       font-size: 16px;
@@ -111,7 +110,6 @@
       <a href="Perfil.aspx"><i class="fas fa-user"></i> Perfil</a>
       <a href="Configuracion.aspx"><i class="fas fa-cog"></i> Configuración</a>
       <a href="Logout.aspx"><i class="fas fa-sign-out-alt"></i> Salir</a>
-
     </nav>
 
     <div class="content">
@@ -150,5 +148,5 @@
       &copy; 2025 AutoConcilia. Todos los derechos reservados.
     </footer>
   </form>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</body>
+</html>

@@ -8,9 +8,9 @@ namespace AutoConcilia
     public partial class Dashboard : Page
     {
         // 🔹 Declaración correcta de los controles
+        protected Label lblWelcome;
         protected GridView gvRegistros;
         protected GridView gvExtractos;
-
         protected Button btnRegistros, btnExtractos, btnConciliacion, btnUsuarios, btnLogout;
 
         // 🔹 Método para obtener la conexión a la base de datos
@@ -135,7 +135,6 @@ namespace AutoConcilia
             Session.Clear();
             Session.Abandon();
             Response.Redirect("Login.aspx", false);
-
         }
     }
 }
